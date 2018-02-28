@@ -15,7 +15,7 @@ module MetricFu
     end
 
     def run!(files, config_files)
-      examiner.new(files, config_files)
+      examiner.new(files, configuration: config_files)
     end
 
     def analyze
